@@ -1,0 +1,29 @@
+<!--U67724813
+Alaina Musselwhite-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="loading">Loading...</div>
+        <div id="error" style="display: none;">Failed to load products. Please try again.</div>
+        <div id="product-container" style="display: none;">
+            <button id="prevBtn">Previous</button>
+            <div id="product">
+                <img id="product-img" src="" alt="Product Image">
+                <h2 id="product-name"></h2>
+                <p id="product-price"></p>
+                <p id="product-description"></p>
+            </div>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
